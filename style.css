@@ -51,6 +51,7 @@ body {
   font-size: 45px;
   height: 110px;
   justify-content: center;
+  transition: filter 1s;
   width: 110px;
 }
 
@@ -69,4 +70,9 @@ body {
   justify-content: flex-start;
   padding-left: 43px;
   width: 250px;
+}
+
+.button:active,
+.button:focus {
+  filter: brightness(120%);
 }
